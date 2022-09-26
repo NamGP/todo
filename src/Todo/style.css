@@ -1,0 +1,71 @@
+.head{
+    width: 600px;
+    /* display: flex;
+    justify-content: center; */
+    margin-bottom: 20px;
+}
+.head button{
+    padding: 5px 10px;
+    background-color: #316fff;
+    color:#fff;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.head button:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+.head input{
+    outline: none;
+    width: 430px;
+    height: 20px;
+}
+
+.item{
+    margin: 0;
+    width: 550px;
+    display: flex;
+    padding: 5px;
+    box-shadow: -5px 5px 8px rgb(106, 122, 122);
+}
+
+.item-content{
+    width: 430px;
+}
+
+.action{
+    display: flex;
+    height: fit-content;
+    align-items: center;    
+    align-self: center;
+    width: 120px;
+}
+
+.delete{
+    margin: 0 5px;
+    background-color: rgb(240, 53, 53);
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 4px;
+    width: 45px;
+}
+
+.done{    
+    background-color: #06e759;
+    color: #fff;
+    padding: 0 5px;
+    border-radius: 4px;
+    width: 35px;
+
+}
+
+.delete:hover, .done:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.is-done{
+    text-decoration: line-through;
+}
